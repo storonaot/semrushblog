@@ -1,0 +1,25 @@
+.button
+  border-radius: 3px
+  background-color: $blue
+  color: #fff
+  padding: 10px
+  cursor: pointer
+  text-decoration: none
+  font-size: .9em
+  border: 1px solid transparent
+  display: inline-block
+  line-height: 1em
+  &:hover
+    background-color: $blueDark
+  &:active
+    background-color: $blueDark
+    box-shadow: inset 0 2px 0 rgba(1, 1, 1, .25)
+    outline: none
+  &:focus
+    outline: none
+  &.isGhost
+    background-color: transparent
+    color: $blue
+    border-color: $blue
+  &.isGreen
+    background-color: $green

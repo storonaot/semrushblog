@@ -1,0 +1,12 @@
+.posts
+  padding: 45px 0 90px
+.postsList
+  display: grid
+  grid-template-columns: 100%
+  grid-gap: 3%
+  background-color: #fff
+  color: #444
+  @media $sView
+    grid-template-columns: calc(50% - 1.5%) calc(50% - 1.5%)
+  @media $lView
+    grid-template-columns: 31.3% 31.3% 31.3%

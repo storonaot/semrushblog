@@ -1,0 +1,29 @@
+{
+  "id": 4,
+  "publication": {
+    "image": null,
+    "status": "draft",
+    "title": "10 things marketers need to consider in 2016",
+    "content": null,
+    "updated": "June 2, 2015 12:45",
+    "published": "",
+    "tag": ""
+  },
+  "author": {
+    "name": "Hellen Wilson",
+    "photo": "author.png"
+  },
+  "counters": null,
+  "seo": {
+    "teaser": "",
+    "createAuto": true,
+    "uploadManually": false,
+    "addTitle": false,
+    "addLogo": false
+  },
+  "meta": {
+    "title": "",
+    "description": "",
+    "keywords": []
+  }
+}

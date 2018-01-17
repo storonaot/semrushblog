@@ -1,0 +1,26 @@
+.counter
+  color: $blueLight
+  font-size: .7em
+  display: flex
+  align-items: center
+  line-height: 1em
+  &::before
+    content: ''
+    display: inline-block
+    margin-right: 3px
+    background-repeat: no-repeat
+    background-size: contain
+    background-position: center
+    size: 15px 11px
+  & + &
+    margin-left: 20px
+.show,
+.rate,
+.share
+  composes: counter
+.share::before
+  background-image: svg('share')
+.show::before
+  background-image: svg('show')
+.rate::before
+  background-image: svg('star')

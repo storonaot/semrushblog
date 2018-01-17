@@ -1,0 +1,46 @@
+.label
+  color: $blue
+  font-size: .8em
+  cursor: pointer
+  text-align: center
+  margin-bottom: 60px
+  line-height: 1.5em
+.uploadIcon
+  size: 28px
+  background-image: svg('upload')
+  background-size: contain
+  background-position: center
+  background-repeat: no-repeat
+  margin: 0 auto 30px auto
+.title
+  text-align: center
+  margin-bottom: 15px
+.hint
+  max-width: 550px
+  color: #98aaaf
+  font-size: .75em
+  line-height: 1.5em
+  text-align: center
+  margin: 0 auto
+.dropzone
+  padding: 50px 30px 45px
+  border-radius: 4px
+  background-color: #e7f3f6
+  cursor: pointer
+  &.isSocial
+    padding: 30px 20px
+    .label
+      margin-bottom: 0
+    .uploadIcon
+      size: 18px
+      margin: 0 auto 15px auto
+    .title,
+    .hint
+      display: none
+  &.isActive
+    background-color: #d1dde0
+  &.isReject
+    background-color: #f01
+  &:hover
+    .label
+      color: $blueDark

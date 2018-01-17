@@ -1,0 +1,48 @@
+.post
+  width: 100%
+  background-color: #e7eef1
+  display: flex
+  flex-direction: column
+  margin-bottom: 20px
+  @media $sView
+    margin-bottom: 30px
+  @media $mView
+    margin-bottom: 40px
+.postImage
+  width: 100%
+  position: relative
+  background-position: center
+  background-size: cover
+  background-repeat: no-repeat
+  &::before
+    content: ''
+    display: block
+    width: 100%
+    padding-bottom: 55%
+  &.isDefault
+    background-size: 101%
+    background-image: svg('fireballBG')
+.footer
+  padding: 20px
+  flex: 1 0 auto
+  display: flex
+  justify-content: space-between
+  flex-direction: column
+.top
+  display: flex
+  justify-content: space-between
+  flex-wrap: wrap
+  color: $blueLight
+  font-size: .8em
+  margin-bottom: 15px
+.counters
+  display: flex
+.postLink
+  color: inherit
+  text-decoration: none
+  margin-bottom: 20px
+  display: block
+  &:hover
+    color: $blue
+  &:active
+    color: $blueDark

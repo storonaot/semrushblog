@@ -1,0 +1,20 @@
+.deleteBtn
+  font-family: inherit
+  color: $red
+  font-size: .9em
+  border: 0
+  cursor: pointer
+  background-color: transparent
+  &:active,
+  &:focus
+    outline: none
+.content
+  &::before
+    content: ''
+    display: inline-block
+    size: 12px 14px
+    background-image: svg('delete', '[fill]: #d00000')
+    background-size: contain
+    background-repeat: no-repeat
+    background-position: center
+    margin-right: 5px
